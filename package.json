@@ -1,0 +1,15 @@
+{
+  "name": "front-com",
+  "version": "1.0.0",
+  "description": "tool to play with your camera",
+  "main": "index.html",
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "browser-sync start --server --files '*.css, *.html, js/*.js'"
+  },
+  "author": "Damien Tailhades",
+  "license": "ISC"
+}

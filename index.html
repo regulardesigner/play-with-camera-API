@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIDEO</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <canvas class="canvas"></canvas>
+  <video muted class="video"></video>
+  <audio class="audio"></audio>
+  <div class="actions">
+    <button onclick="startRecord()" style="background-color: red; color: white;">REC</button>
+    <button onclick="stopRecord()">STOP</button>
+    <div class="effects">
+      <input type="radio" name="effects" id="normal" value="0" checked>
+      <label for="normal">No effect</label>
+      <input type="radio" name="effects" id="red" value="1">
+      <label for="red">Red & Yellow</label>
+      <input type="radio" name="effects" id="rgb" value="2">
+      <label for="rgb">RGB Effect</label>
+    </div>
+  </div>
+  <pre class="error"></pre>
+  <script src="./js/index.js"></script>
+</body>
+</html>
